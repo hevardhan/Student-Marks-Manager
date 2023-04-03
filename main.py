@@ -349,6 +349,7 @@ class Main:
             # up_cmp1_dict = upload_dict['']
             up_prn_dict = upload_dict['P.R.N']
             print(upload_dict)
+            #
             batch_get = clicked_batch.get()
             branch_get= clicked_branch.get()
             for x in up_prn_dict:
